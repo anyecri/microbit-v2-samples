@@ -1,0 +1,31 @@
+{
+    "name": "microbit-v2-samples",
+    "dependencies": {
+        "core": "*",
+        "radio": "*",
+        "microphone": "*"
+    },
+    "files": [
+        ".vscode/extensions.json",
+        ".vscode/launch.json",
+        "README.md",
+        "codal.ble.json",
+        "codal.json",
+        "module.json",
+        "source/samples/README.md",
+        "utils/targets.json",
+        "main.blocks",
+        "main.ts"
+    ],
+    "testFiles": [
+        "test.ts"
+    ],
+    "targetVersions": {
+        "target": "5.0.12",
+        "targetId": "microbit"
+    },
+    "supportedTargets": [
+        "microbit"
+    ],
+    "preferredEditor": "blocksprj"
+}
